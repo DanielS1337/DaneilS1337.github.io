@@ -751,7 +751,7 @@ ol {
 }
 .blog__item.latest__item:hover {
   border: 1px solid #222222 !important;
-  background: url(../img/blog/blog-1.jpg);
+  background: url(../img/blog/blog-2.jpg);
   background-size: cover;
 }
 
@@ -1302,6 +1302,25 @@ ol {
   background: #202020;
 }
 
+.vlog__item {
+  height: 311px !important;
+  width: calc(50% - 10px);
+  margin-right: 10px;
+  margin-bottom: 30px;
+  float: left;
+  position: relative;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
 .blog__item {
   border: 1px solid #222222;
   padding: 40px 48px 35px 30px;
@@ -1372,7 +1391,8 @@ ol {
   Blog Details Hero
 -----------------------*/
 .blog-hero {
-  padding: 300px 0 230px;
+  padding: 150px 100px;
+  filter: brightness(100%);
 }
 
 .blog__hero__text {

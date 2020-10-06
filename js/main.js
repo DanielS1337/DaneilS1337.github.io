@@ -38,6 +38,20 @@
         },
       });
     }
+
+    if ($(".blog__gallery").length > 0) {
+      var containerBlogs = document.querySelector(".blog__gallery");
+      // var mixer = mixitup(containerEl);
+      var mixer = mixitup(containerBlogs, {
+        animation: {
+          effects: "fade",
+        },
+        pagination: {
+          limit: 6,
+          hidePageListIfSinglePage: true,
+        },
+      });
+    }
   });
 
   /*------------------
@@ -200,3 +214,7 @@
       );
   });
 })(jQuery);
+
+/*-------------------
+    Blog Pagination
+---------------------*/
