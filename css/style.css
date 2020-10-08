@@ -215,6 +215,54 @@ ol {
   transition: all, 0.7s;
 }
 
+.primary2-btn {
+  display: inline-block;
+  font-size: 15px;
+  font-family: "Play", sans-serif;
+  font-weight: 700;
+  padding: 14px 32px 12px;
+  color: #ffffff;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  position: relative;
+  z-index: 1;
+}
+.primary2-btn:hover:before {
+  height: 100%;
+  width: 100%;
+}
+.primary2-btn:hover:after {
+  height: 100%;
+  width: 100%;
+}
+.primary2-btn:before {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 30px;
+  width: 30px;
+  border-left: 2px solid #e0a80e;
+  border-top: 2px solid #e0a80e;
+  content: "";
+  z-index: -1;
+  -webkit-transition: all, 0.7s;
+  -o-transition: all, 0.7s;
+  transition: all, 0.7s;
+}
+.primary2-btn:after {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  height: 30px;
+  width: 30px;
+  border-right: 2px solid #e0a80e;
+  border-bottom: 2px solid #e0a80e;
+  content: "";
+  z-index: -1;
+  -webkit-transition: all, 0.7s;
+  -o-transition: all, 0.7s;
+  transition: all, 0.7s;
+}
 .site-btn {
   font-size: 15px;
   color: #ffffff;
